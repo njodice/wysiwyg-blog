@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Review:-Beyond-WYSIWYG"
+title: "Review: Beyond WYSIWYG"
 date: 2025-02-28
 categories: post
 ---
