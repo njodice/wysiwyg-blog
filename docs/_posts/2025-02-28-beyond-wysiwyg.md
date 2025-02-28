@@ -17,7 +17,7 @@ Complicating the WYSIWYG paradigm, Blanc and Imbert hope, might re-introduce a c
 Both of these aspects help us clearly understand how the WYSIWYG paradigm operates. Early marketing makes it clear that WYSIWYG tools were purpose-built for automation. See, for example, the headline of a 1988 advertisement for Adobe Illustrator: “Introducing Automatic Art.” As a technology, WYSIWYG’s emphasis on visuality is in fact a form of automation. The hand becomes subservient to the eye. “What you see” determines “how you make.” What is the impact? Design can become _technology-as-knowledge_ rather than _technology-as-process_.
 
 ![Introducing Automatic Art](https://www.dropbox.com/scl/fi/evd9a5nc2wyplziyhj4dk/MacWorld_8806_June_1988_.jpg?rlkey=mc9lqja3rar9l5wsjzp1aq190&st=sgd5z8ej&raw=1)
-*"Introducing Automatic Art," from _MacWorld_, June 1988.*
+*"Introducing Automatic Art," from <i>MacWorld</i>, June 1988.*
 
 As explained by the anthropologist Tim Ingold, technology-as-process defines “technology” as the activities of making and using tools. (See Ingold's [_The Perception of the Environment_][Ingold], Chapter 15) “The key element here is that of skill,” Ingold writes. A skilled activity — the cutting and pasting of hard copy, the measuring out of page margins by ruler, the sketching of type by hand — is a _technological process_. So, too, are digital activities like typing and the use of a language like CSS. Language use is dependent on a keen understanding of the vocabulary and grammar (or a willingness to learn them through immersion). _Technology-as-knowledge_, on the other hand, distinguishes the practice of a skill from the intelligence applied to that skill. Skill is an “application of dexterity,” while intelligence or “know-how” is a conceptualization of that action. In other words, when PageMaker transposes “the tools and gestures of layout designers,” technology-as-process is abstracted. Just as Figma’s auto-layout feature is an abstraction of CSS coding, a layout software is an abstraction of physical layout practices.
 
@@ -43,7 +43,7 @@ As automation rears its ugly head again through the most recent cycle of “arti
 
 [^1]: Contemporary editors, such as those for the Markdown language or the developer tools within Google Chrome's browser, work much the same way.
 
-[Presentation]: <https://www.vimeo.com/1059453726> (Presentation)
+[Presentation]: <https://www.vimeo.com/1059453726>
 [1]: <https://xml.coverpages.org/textp1.html#Author/Editor>
 [Ingold]: https://leiaarqueologia.wordpress.com/wp-content/uploads/2017/08/the-perception-of-the-environment-tim-ingold.pdf
 

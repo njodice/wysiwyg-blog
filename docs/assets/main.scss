@@ -1,0 +1,18 @@
+---
+---
+@import "minima";
+
+body{
+	background-color:#F2F0E5;
+	font-family: "lucida console";
+}
+.site-title{
+	letter-spacing: 10px;
+
+	color: Green;
+}
+img + em {
+	font-variant-caps: all-small-caps;
+	font-size: 150%;
+	font-style: normal;
+}
