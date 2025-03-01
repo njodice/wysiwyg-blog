@@ -2,17 +2,111 @@
 ---
 @import "minima";
 
+.home h1{
+	font-size: 200%;
+	width: 40%;
+	border-bottom: dotted;
+	padding-bottom: 10px;
+	margin-bottom: 50px;
+}
+p{
+	text-align: justify;
+	text-justify: inter-word;
+}
 body{
 	background-color:#F2F0E5;
-	font-family: "lucida console";
+	font-family: Georgia;
 }
 .site-title{
-	letter-spacing: 10px;
-
-	color: Green;
+	
+}
+.site-header {
+	border-bottom: 0px;
+}
+.site-footer{
+	border-top: dotted;
 }
 img + em {
+	font-family: monospace;
 	font-variant-caps: all-small-caps;
-	font-size: 150%;
+	font-size: 120%;
 	font-style: normal;
+}
+h1 {
+	font-weight: 400;
+}
+h2 {
+	font-weight: 400;
+}
+h3 {
+	font-weight: 400;
+}
+h4 {
+	font-weight: 400;
+}
+.dt-published{
+	font-family: monospace;
+	font-style: italic;
+	font-size: 16px;
+	color: #5E409D;
+}
+.post-title {
+	font-family: monospace;
+	font-style: italic;
+	font-size: 16px;
+	color: #5E409D;
+	margin-bottom: 5px;
+}
+.post-content h3 {
+	border-bottom: dotted;
+	font-size: 200%;
+}
+.footnotes{
+	font-family: monospace;
+	font-style: italic;
+	font-size: 90%;
+	color: #5E409D;
+}
+.footnote{
+	font-family: monospace;
+	margin-left: 2px;
+}
+.footnote:hover{
+	color: #AF3029;
+	text-decoration: none;
+}
+a {
+	color: #5E409D;
+}
+a:visited {
+	color: #5E409D;
+}
+a:hover{
+	text-decoration: none;
+	color:#AF3029;
+	transition-duration: 1s;
+}
+.home{
+	float: left;
+}
+.post-list-heading{
+	font-family: monospace;
+	font-size: 90%;
+	color: #5E409D;
+	border: solid 2px #5E409D;
+	width: fit-content;
+	padding: 5px;
+}
+.post-meta{
+	font-family: monospace;
+	font-size: 90%;
+	color: #5E409D;
+}
+.post-list{
+
+}
+.wrapper{
+	margin-top: 10px;
+	margin-left: 10px;
+	max-width: 100%;
 }
