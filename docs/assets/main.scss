@@ -2,13 +2,7 @@
 ---
 @import "minima";
 
-.home h1{
-	font-size: 200%;
-	width: 40%;
-	border-bottom: dotted;
-	padding-bottom: 10px;
-	margin-bottom: 50px;
-}
+
 p{
 	text-align: justify;
 	text-justify: inter-word;
@@ -17,14 +11,57 @@ body{
 	background-color:#F2F0E5;
 	font-family: Georgia;
 }
-.site-title{
-	
+@media screen and (min-width: 600px){
+	.site-title{
+		font-weight: bold;
+		font-size: 200%;
+		width: 300px;
+		font-family: Georgia;
+		letter-spacing: 0px;
+		line-height: 1.5em;
+		margin-bottom: 0;
+		color: #5E409D;
+}
+	.home h1{
+		font-size: 200%;
+		width: 350px;
+		border-bottom: dotted;
+		padding-bottom: 10px;
+		margin-bottom: 50px;
+}
+}
+@media screen and (max-width: 599px){
+	.site-title{
+	font-weight: bold;
+	font-size: 1.5rem;
+	width: auto;
+	font-family: Georgia;
+	letter-spacing: 0px;
+	line-height: 1.2em;
+	margin-bottom: 0;
+	color: #5E409D;
+}
+	.home h1{
+		font-size: 1.5rem;
+		width: 100%;
+		border-bottom: dotted;
+		padding-bottom: 10px;
+		margin-bottom: 50px;
+}
+}
+.site-title:visited{
+	color: #5E409D;
 }
 .site-header {
 	border-bottom: 0px;
 }
 .site-footer{
 	border-top: dotted;
+}
+img{
+	border: solid  1px black;
+	padding: 10px;
+	
 }
 img + em {
 	font-family: monospace;
@@ -44,11 +81,12 @@ h3 {
 h4 {
 	font-weight: 400;
 }
-.dt-published{
+.post-meta{
 	font-family: monospace;
 	font-style: italic;
 	font-size: 16px;
 	color: #5E409D;
+	text-align: right;
 }
 .post-title {
 	font-family: monospace;
@@ -56,11 +94,33 @@ h4 {
 	font-size: 16px;
 	color: #5E409D;
 	margin-bottom: 5px;
+	margin-top: -10px;
+}
+.post-header {
+	position: fixed;
+	text-align: right;
+	width: 200px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	border-right: dotted;
+	padding: 10px;
+	height: fit-content;
+	border-color: #5E409D;
+}
+.post-content.e-content{
+	width: 80%;
+	margin-top: 0;
+
+}
+.post-content{
+	margin-top: 0px;
+	margin-left: 250px;
 }
 .post-content h3 {
 	border-bottom: dotted;
 	font-size: 200%;
 }
+
 .footnotes{
 	font-family: monospace;
 	font-style: italic;
@@ -109,4 +169,8 @@ a:hover{
 	margin-top: 10px;
 	margin-left: 10px;
 	max-width: 100%;
+}
+.page-content{
+	max-width: 80%;
+	padding: 0px 0;
 }
