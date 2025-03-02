@@ -4,8 +4,11 @@
 @import url(https://use.typekit.net/kfz0dij.css);
 
 p{
-	text-align: justify;
-	text-justify: inter-word;
+	text-align: left;
+	text-wrap: pretty;
+}
+h1 h2 h3 h4 h5 h6{
+	text-wrap: pretty;
 }
 body{
 	overscroll-behavior: none;
@@ -13,45 +16,29 @@ body{
 	font-family: cardea, serif;
 font-weight: 400;
 font-style: normal;
+
 }
-@media screen and (min-width: 600px){
-	.site-title{
+.site-nav{
+	background-color: none;
+}
+.site-title{
 		font-weight: bold;
-		font-size: 200%;
-		width: 300px;
-		
-		letter-spacing: 0px;
-		line-height: 1.5em;
-		margin-bottom: 0;
+        font-size: 200%;
+        width: 300px;
+        letter-spacing: 0px;
+        line-height: 1.5em;
+        margin-bottom: 0;
 		color: #5E409D;
+		text-wrap: pretty;
 }
 	.home h1{
 		font-size: 200%;
-		width: 350px;
-		border-bottom: dotted;
-		padding-bottom: 10px;
-		margin-bottom: 50px;
-		clear: both;
-}
-}
-@media screen and (max-width: 599px){
-	.site-title{
-	font-weight: bold;
-	font-size: 1.5rem;
-	width: auto;
-	letter-spacing: 0px;
-	line-height: 1.2em;
-	margin-bottom: 0;
-	color: #5E409D;
-}
-	.home h1{
-		font-size: 1.5rem;
-		width: 100%;
-		border-bottom: dotted;
-		padding-bottom: 10px;
-		margin-bottom: 50px;
-		clear: both;
-}
+        width: 350px;
+        border-bottom: dotted;
+        padding-bottom: 10px;
+        margin-bottom: 50px;
+        clear: both;
+
 }
 .site-title:visited{
 	color: #5E409D;
@@ -65,7 +52,6 @@ font-style: normal;
 img{
 	border: solid  1px black;
 	padding: 10px;
-	
 }
 .home img{
 	position: fixed;
@@ -100,7 +86,7 @@ font-style: italic;
 	text-align: right;
 }
 .post-title {
-		font-family: "base-mono-wide", monospace;
+	font-family: "base-mono-wide", monospace;
 	font-weight: 300;
 	font-style: italic;
 	font-size: 16px;
@@ -192,4 +178,86 @@ a:hover{
 .page-content{
 	max-width: 80%;
 	padding: 0px 0;
+}
+
+@media screen and (max-width: 600px){
+	
+	.site-title{
+	font-weight: bold;
+	font-size: 2.5rem;
+	width: 90%;
+	letter-spacing: 0px;
+	line-height: 1.2em;
+	margin-bottom: 0;
+	color: #5E409D;
+}
+	.home h1{
+		font-size: 2.5rem;
+		width: 90%;
+		border-bottom: dotted;
+		padding-bottom: 10px;
+		margin-bottom: 50px;
+		clear: both;
+		line-height: 120%;
+}
+	.post-header {
+		position: relative;
+		text-align: left;
+		width: 100%;
+		margin-top: 40px;
+		margin-bottom: 0px;
+		border-bottom: dotted;
+		border-right: none;
+		padding: 0;
+		height: fit-content;
+		border-color: #5E409D;
+}
+	.post-content.e-content{
+		width: 100%;
+		margin-top: 0;
+
+}
+	.post-meta{
+		font-family: "base-mono-wide", monospace;
+		font-weight: 300;
+		font-style: italic;
+		font-size: 16px;
+		color: #5E409D;
+		text-align: left;
+	}
+	.post-title {
+		font-family: "base-mono-wide", monospace;
+		font-weight: 300;
+		font-style: italic;
+		font-size: 16px;
+		color: #5E409D;
+		margin-bottom: 5px;
+		margin-top: 0px;
+	}
+	.post-content{
+		margin-top: 20px;
+		margin-left: 0px;
+	
+}
+	.post-content h3 {
+		border-bottom: dotted;
+		font-size: 2.5rem;
+		line-height: 120%;
+}
+	p{
+		text-align: left;
+		text-size: 120%;
+
+	}
+	.page-content{
+		max-width: 100%;
+		padding: 0px 0;
+}
+	img{
+		border: solid  1px black;
+		padding: 10px;
+		width: 90%;
+		height: 90%;
+
+}
 }
