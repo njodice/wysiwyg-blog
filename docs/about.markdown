@@ -7,7 +7,7 @@ permalink: /about/
 <p><b>A blog about the onset of digital design technology.</b>
 This is the home for my in-progress writing and research.</p>
 
-<img src="/assets/ActOfReproduction-small.gif" alt="Acts Of Reporduction" style="display:block;margin-left:auto;margin-right:auto;width:80%;height:80%;">
+<img src="/assets/ActOfReproduction-small.gif" alt="Acts Of Reporduction" style="display:block;margin-left:auto;margin-right:auto;width:60%%;height:60%;">
 
 <h4>About the Project</h4>
 <p>The phrase “What you see is what you get,” was a popular shorthand in the desktop publishing industry of the late 1980s. WYSIWYG, for short, described a technological dream: Imagine an interactive graphic display which would allow you to see print-quality previews of in-progress work on your computer screen. Imagine that it would display a wide gamut of print-accurate colors. WYSIWYG systems were the north star for software and hardware developers including Adobe, Aldus, Corel, and Apple.</p>
