@@ -24,7 +24,8 @@ description: >-
 url: "blog.noahjodice.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  njodice
-
+feed.icon: /assets/icon.png 
+logo: /assets/icon.png 
 # Build settings
 theme: minima
 plugins:
