@@ -3,7 +3,6 @@
 @import "minima";
 @import url(https://use.typekit.net/kfz0dij.css);
 
-
 .feat-img{
 	position: relative;
 	width: inherit;
@@ -103,7 +102,20 @@ h4 {
 	font-style: italic;
 	font-size: 16px;
 	color: #5E409D;
-	text-align: right;
+	text-align: left;
+}
+
+.send-home{
+		
+		font-family: "base-mono-wide", monospace;
+	    font-weight: 300;
+	    font-style: normal;
+	    font-size: 90%;
+	    color: #5E409D;
+	    border: solid 2px #5E409D;
+	    width: fit-content;
+	    margin-bottom: 30px;
+	    padding: 5px;
 }
 .post-title {
 	font-family: "base-mono-wide", monospace;
@@ -116,9 +128,9 @@ h4 {
 }
 .post-header {
 	position: fixed;
-	text-align: right;
+	text-align: left;
 	width: 200px;
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-bottom: 0px;
 	border-right: dotted;
 	padding: 10px;
@@ -287,13 +299,15 @@ a:hover{
 		font-size: 16px;
 		color: #5E409D;
 		margin-bottom: 5px;
-		margin-top: 0px;
+		margin-top: 5px;
 	}
 	.post-content{
 		margin-top: 20px;
 		margin-left: 0px;
 	
 }
+
+
 	.post-content h3 {
 		border-bottom: dotted;
 		font-size: 2.5rem;
