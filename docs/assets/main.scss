@@ -18,6 +18,13 @@
   	background: rgba(94, 64, 157, .5);
   	padding: 10px;
 }
+.feat-img-bg:hover{
+	max-width: 300px;
+  	border: solid 2px #AF3029;
+  	background: rgba(175, 48, 41, .5);
+  	padding: 10px;
+  	
+}
 p{
 	text-align: left;
 	text-wrap: pretty;
@@ -117,6 +124,11 @@ h4 {
 	    margin-bottom: 30px;
 	    padding: 5px;
 }
+.send-home:hover{
+	    color: #AF3029;
+	    border: solid 2px #AF3029;
+
+}
 .post-title {
 	font-family: "base-mono-wide", monospace;
 	font-weight: 300;
@@ -169,6 +181,7 @@ h4 {
 .footnote:hover{
 	color: #AF3029;
 	text-decoration: none;
+	transition-duration: .5s;
 }
 a {
 	color: #5E409D;
@@ -179,7 +192,7 @@ a:visited {
 a:hover{
 	text-decoration: none;
 	color:#AF3029;
-	transition-duration: 1s;
+	
 }
 .home{
 	float: left;
