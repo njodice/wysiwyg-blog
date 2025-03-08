@@ -3,6 +3,22 @@
 @import "minima";
 @import url(https://use.typekit.net/kfz0dij.css);
 
+
+.feat-img{
+	position: relative;
+	width: inherit;
+	height: inherit;
+	border: none;
+	padding: 0;
+	mix-blend-mode: overlay;
+	
+}
+.feat-img-bg{
+	max-width: 300px;
+  	border: solid 2px #5E409D;
+  	background: rgba(94, 64, 157, .5);
+  	padding: 10px;
+}
 p{
 	text-align: left;
 	text-wrap: pretty;
@@ -27,19 +43,22 @@ font-style: normal;
 	background-color: none;
 }
 .site-title{
-		font-weight: bold;
-        font-size: 200%;
-        width: 300px;
+		font-family: cardea, serif;
+		font-weight: 700;
+		font-style: normal;
+        font-size: 300%;
+        width: 80%;
         letter-spacing: 0px;
-        line-height: 1.5em;
+        line-height: 1.2em;
         margin-bottom: 0;
 		color: #5E409D;
 		text-wrap: pretty;
 }
 	.home h1{
-		font-size: 200%;
-        width: 350px;
+		font-size: 300%;
+        width: 80%;
         border-bottom: dotted;
+        line-height: 1.2em;
         padding-bottom: 10px;
         margin-bottom: 50px;
         clear: both;
@@ -57,11 +76,6 @@ font-style: normal;
 img{
 	border: solid  1px black;
 	padding: 10px;
-}
-.home img{
-	position: fixed;
-	margin-left: 400px;
-	width: 40%;
 }
 img + em {
 	font-family: "base-mono-wide", monospace;
@@ -83,6 +97,7 @@ h4 {
 	font-weight: 400;
 }
 .post-meta{
+	position: relative;
 	font-family: "base-mono-wide", monospace;
 	font-weight: 700;
 	font-style: italic;
@@ -175,7 +190,11 @@ a:hover{
 	color: #5E409D;
 }
 .post-list{
-
+	display: flex;
+	flex-direction: row;
+}
+.post-preview{
+	margin: 0 30px 0 0;
 }
 .wrapper{
 	margin-top: 10px;
@@ -254,6 +273,13 @@ a:hover{
 		color: #5E409D;
 		text-align: left;
 	}
+	.post-list{
+	display: flex;
+	flex-direction: column;
+}
+.post-preview{
+	margin: 0 30px 0 0;
+}
 	.post-title {
 		font-family: "base-mono-wide", monospace;
 		font-weight: 300;

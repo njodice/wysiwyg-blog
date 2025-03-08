@@ -2,6 +2,8 @@
 layout: post
 title: "Review: Beyond WYSIWYG"
 date: 2025-02-28
+featured-image: MacWorld_8806_June_1988_.jpg
+featured-image-alt: An advertisement for Adobe Illustrator 88 in MacWorld Magainze
 categories: post
 ---
 ### A Review of "Typsetting and Publishing Tools: Beyond WYSIWYG"
