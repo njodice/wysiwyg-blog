@@ -217,14 +217,27 @@ a:hover{
 .post-list{
 	display: flex;
 	flex-direction: row;
+
 }
 .post-preview{
 	margin: 0 30px 0 0;
+}
+div.scroll-container{
+	max-width: 80%;
+	display: block;
+	overflow: auto;
+	white-space: nowrap;
+
+}
+div.scroll-container::-webkit-scrollbar{
+	display: none;
+	
 }
 .wrapper{
 	margin-top: 10px;
 	margin-left: 10px;
 	max-width: 100%;
+
 }
 .page-content{
 	max-width: 80%;
