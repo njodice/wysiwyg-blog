@@ -31,6 +31,19 @@ p{
 	font-size: 120%;
 	line-height: 170%;
 }
+blockquote{
+	font-family: base-mono-wide, monospace;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 90%;
+	color: #878580;
+	border-left: none;
+	padding-left: 25px;
+	letter-spacing: -.5px;
+	margin-bottom: 30px;
+	text-wrap: balance;
+	word-spacing: normal;
+}
 h1 h2 h3 h4 h5 h6{
 	text-wrap: pretty;
 }
@@ -41,8 +54,8 @@ body{
 	overscroll-behavior: none;
 	background-color:#FFFCF0;
 	font-family: cardea, serif;
-font-weight: 400;
-font-style: normal;
+	font-weight: 400;
+	font-style: normal;
 
 }
 .site-nav{
@@ -137,6 +150,7 @@ h4 {
 	color: #5E409D;
 	margin-bottom: 5px;
 	margin-top: -10px;
+	line-height: 1.5;
 }
 .post-header {
 	position: fixed;
@@ -168,13 +182,14 @@ h4 {
 	
 	font-family: "base-mono-wide", monospace;
 	font-weight: 300;
-	font-style: italic;
 	font-size: 90%;
+	word-spacing: normal;
 	color: #5E409D;
 }
 .footnote{
 	font-family: "base-mono-wide", monospace;
 	font-weight: 300;
+	font-size: 80%;
 	font-style: normal;
 	margin-left: 2px;
 }
@@ -214,13 +229,17 @@ a:hover{
 	font-size: 90%;
 	color: #5E409D;
 }
+.post-link{
+	max-width: 300px;
+}
 .post-list{
 	display: flex;
 	flex-direction: row;
+	text-wrap: pretty;
 
 }
 .post-preview{
-	margin: 0 30px 0 0;
+	margin: 0 20px 0 0;
 }
 div.scroll-container{
 	max-width: 80%;
@@ -312,11 +331,11 @@ div.scroll-container::-webkit-scrollbar{
 		text-align: left;
 	}
 	.post-list{
-	display: flex;
-	flex-direction: column;
+		display: flex;
+		flex-direction: column;
 }
 .post-preview{
-	margin: 0 30px 0 0;
+		margin: 0 30px 0 0;
 }
 	.post-title {
 		font-family: "base-mono-wide", monospace;
