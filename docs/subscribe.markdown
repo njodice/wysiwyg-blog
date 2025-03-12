@@ -12,7 +12,7 @@ Or, subscribe via MailChimp:
       <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
   <style type="text/css">
         @import url(https://use.typekit.net/kfz0dij.css);
-        #mc_embed_signup{background:#FFFCF0; border: solid 2px black; false;clear:left; font:14px cardea,serif; width: 600px;}
+        #mc_embed_signup{background:#FFFCF0; border: solid 2px black; false;clear:left; font:14px cardea,serif; max-width: 600px;}
         /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
            We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
