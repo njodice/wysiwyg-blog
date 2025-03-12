@@ -179,12 +179,13 @@ h4 {
 }
 
 .footnotes{
-	
+	word-wrap:break-word;
 	font-family: "base-mono-wide", monospace;
 	font-weight: 300;
 	font-size: 90%;
 	word-spacing: normal;
 	color: #5E409D;
+	text-wrap: pretty;
 }
 .footnote{
 	font-family: "base-mono-wide", monospace;
@@ -231,6 +232,7 @@ a:hover{
 }
 .post-link{
 	max-width: 300px;
+	text-wrap: auto;
 }
 .post-list{
 	display: flex;
@@ -286,7 +288,10 @@ div.scroll-container::-webkit-scrollbar{
 
 
 @media screen and (max-width: 600px){
-	
+body{
+		max-width: 100%;
+		
+	}
 	.site-title{
 	font-weight: bold;
 	font-size: 2.5rem;
