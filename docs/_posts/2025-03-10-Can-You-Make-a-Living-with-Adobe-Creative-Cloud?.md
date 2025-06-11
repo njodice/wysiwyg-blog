@@ -37,7 +37,7 @@ What Warnock is describing about "the old days" is a professionalized system of 
 
 A diagram from Reproduction Photography for Lithography, written by Eric Chambers and published by the Graphic Arts Technical Foundation in 1979, gives a suggested model for how to organize this system of labor within a single building.[^fn2] Design, artwork, and photography are placed on the top floor, right next to management. The system continues down towards the warehouse, through cameras, assembly, platemaking, and printing. While this isn't an organizational chart per se, it places graphic designers in a middle management position between upper management and production technicians. In the desktop publishing model, the designer began absorbing many of the jobs that sat on those lower floors, including typesetting.
 
-![Suggested layout for 5 floors and basement building, from Reproduction Photography for Lithography.](/assets/images/Reproduction-Photography-For-Lithography-21.png)
+<img src="Reproduction-Photography-For-Lithography-21.png" width="50px" height="50px">
 *Suggested layout for 5 floors and basement building, from <i>Reproduction Photography for Lithography</i>.*
 
 Warnock also emphasizes the manual labor of design, arguing implicitly that desktop publishing has freed the designer from the hassles of glue, paper, pens, and complex manual equipment.
